@@ -5,7 +5,6 @@
   grid-template-rows: 0.5fr 4fr 1fr 1fr 1fr 1fr 1fr 2fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  
 }
 
 .header {
@@ -21,7 +20,6 @@ div.header ul {
   display: inline-flex;
   justify-content: space-around;
   list-style-type: none;
-  
 }
 
 div.header li {
@@ -39,12 +37,11 @@ div.header li {
   justify-content: center;
   position: relative;
   text-align: center;
-
   background-color: black;
-  color: white
+  color: white;
   position: relative;
   text-align: center;
-  color: white;;
+  color: white;
 }
 #Griot {
   padding-right: 25px;
@@ -61,30 +58,118 @@ div.featured-shows img {
 }
 .month {
   grid-area: 3 / 2 / 4 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.month-selector {
+  width: 100%;
+}
+.guy {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .show1 {
   grid-area: 4 / 2 / 5 / 3;
+  display: flex;
+  max-width: auto;
+  max-height: 100px;
+  position: relative;
+  border-bottom: 1px solid gray;
+  justify-content: space-around;
 }
 .show2 {
   grid-area: 5 / 2 / 6 / 3;
+  display: flex;
+  max-width: auto;
+  max-height: 100px;
+  position: relative;
+  border-bottom: 1px solid gray;
+  justify-content: space-around;
 }
 .show3 {
   grid-area: 6 / 2 / 7 / 3;
+  display: flex;
+  max-width: auto;
+  max-height: 100px;
+  position: relative;
+  border-bottom: 1px solid gray;
+  justify-content: space-around;
 }
 .show4 {
   grid-area: 7 / 2 / 8 / 3;
-  background-color: bisque;
+  display: flex;
+  max-width: auto;
+  max-height: 100px;
+  position: relative;
+  border-bottom: 1px solid gray;
+  justify-content: space-around;
 }
 
 .footy {
   grid-area: 8 / 1 / 9 / 4;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
 }
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: white;
-    font-size: 60px;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.show-list {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+#raisin {
+  font-size: 18px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.buttons {
+  background-color: burlywood;
+  height: 25px;
+  color: white;
+}
+
+div.footy ul {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+#heady {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+div.footy li {
+  padding-bottom: 10px;
+}
+
+.map {
+  max-width: 70%;
+  max-height: 70%;
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 25px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
